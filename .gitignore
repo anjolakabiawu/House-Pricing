@@ -1,0 +1,31 @@
+# Ignore data folder and files
+Data/
+Data/*
+
+# Ignore specific file types
+*.csv
+*.xlsx
+*.json
+*.ipynb
+*.H5
+
+# Ignore virtual environments
+env/
+venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore logs
+*.log
+
+# Ignore config files
+.env
+config.py
+
+# Ignore IDE and OS-specific files
+.vscode/
+.idea/
+.DS_Store
